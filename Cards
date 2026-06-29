@@ -75,9 +75,9 @@ class CardsMoveThenRotateCirclee(Scene): # Renamed class
     def construct(self):
         # 1. Define the cards (9 cards)
         card_defs = [
-            ("Souptik", "D"), ("Rider", "S"), ("Mona", "S"), ("Badre", "D"),
-            ("Bella", "H"), ("Eddie", "C"), ("Zhi", "C"), ("Abde", "D"),
-            ("Mykel", "S")
+            ("Name", "D"), ("Name", "S"), ("Name", "S"), ("Name", "D"),
+            ("Name", "H"), ("Name", "C"), ("Name", "C"), ("Name", "D"),
+            ("Name", "S")
         ]
         num_cards = len(card_defs)
         circle_radius = 3
